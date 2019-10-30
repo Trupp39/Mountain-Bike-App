@@ -44,5 +44,23 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
     }
     
+    //MARK: UITextFieldDelegate
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder();
+        return true;
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        if(textField == rideNameText){
+            
+        }
+        else if (textField == ridersText){
+            
+        }
+        else if (textField  == commentsText){
+            
+        }
+    }
+    
 }
 
