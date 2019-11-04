@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8C-9m-OqD">
-                                <rect key="frame" x="63" y="516" width="75" height="30"/>
+                                <rect key="frame" x="62" y="571" width="75" height="30"/>
                                 <state key="normal" title="View Rides"/>
                                 <connections>
                                     <action selector="viewRidesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TMA-Cn-Qde"/>
@@ -74,13 +74,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PFG-ci-PH6">
-                                <rect key="frame" x="62" y="310" width="250" height="177"/>
+                                <rect key="frame" x="62" y="310" width="250" height="22"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48u-Tq-sY1">
-                                <rect key="frame" x="243" y="516" width="70" height="30"/>
+                                <rect key="frame" x="242" y="571" width="70" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="AAr-bq-XTA"/>
                                 </constraints>
@@ -89,21 +89,25 @@
                                     <action selector="sendItButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KVo-Nj-RYM"/>
                                 </connections>
                             </button>
+                            <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lXC-SS-bfT" customClass="FlowControl" customModule="Mountain_Bike_App" customModuleProvider="target">
+                                <rect key="frame" x="62" y="429" width="250" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="xVG-WR-mjc" firstAttribute="top" secondItem="uQQ-oI-ZX5" secondAttribute="bottom" constant="8" symbolic="YES" id="0lr-RO-duU"/>
                             <constraint firstItem="bIP-9M-8zp" firstAttribute="trailing" secondItem="xVG-WR-mjc" secondAttribute="trailing" id="0n0-aa-WeJ"/>
-                            <constraint firstItem="d8C-9m-OqD" firstAttribute="top" secondItem="PFG-ci-PH6" secondAttribute="bottom" constant="29" id="1sC-ZW-L9B"/>
+                            <constraint firstItem="d8C-9m-OqD" firstAttribute="top" secondItem="PFG-ci-PH6" secondAttribute="bottom" constant="161" id="1sC-ZW-L9B"/>
                             <constraint firstItem="bIP-9M-8zp" firstAttribute="leading" secondItem="uQQ-oI-ZX5" secondAttribute="leading" id="4Ae-0G-Hkt"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d8C-9m-OqD" secondAttribute="bottom" constant="121" id="4Jo-zH-hUz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d8C-9m-OqD" secondAttribute="bottom" constant="66" id="4Jo-zH-hUz"/>
                             <constraint firstItem="9J8-pk-nrM" firstAttribute="leading" secondItem="HM6-9d-gjI" secondAttribute="leading" id="50V-7B-Wa8"/>
                             <constraint firstItem="dV9-Js-cId" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="A3Y-Hp-N4o"/>
                             <constraint firstItem="xVG-WR-mjc" firstAttribute="trailing" secondItem="PFG-ci-PH6" secondAttribute="trailing" id="MsT-Re-iag"/>
-                            <constraint firstItem="98Z-fY-AFv" firstAttribute="leading" secondItem="d8C-9m-OqD" secondAttribute="leading" id="NpO-c7-DaN"/>
+                            <constraint firstItem="98Z-fY-AFv" firstAttribute="leading" secondItem="d8C-9m-OqD" secondAttribute="leading" constant="1" id="NpO-c7-DaN"/>
                             <constraint firstItem="uQQ-oI-ZX5" firstAttribute="leading" secondItem="PFG-ci-PH6" secondAttribute="leading" id="XKK-R1-Ee3"/>
                             <constraint firstItem="HM6-9d-gjI" firstAttribute="top" secondItem="9J8-pk-nrM" secondAttribute="bottom" constant="8" symbolic="YES" id="YDm-7X-9y5"/>
-                            <constraint firstItem="9J8-pk-nrM" firstAttribute="trailing" secondItem="48u-Tq-sY1" secondAttribute="trailing" id="Z3x-XB-BPI"/>
+                            <constraint firstItem="9J8-pk-nrM" firstAttribute="trailing" secondItem="48u-Tq-sY1" secondAttribute="trailing" constant="1" id="Z3x-XB-BPI"/>
                             <constraint firstItem="dV9-Js-cId" firstAttribute="leading" secondItem="9J8-pk-nrM" secondAttribute="leading" id="a9T-fr-eRt"/>
                             <constraint firstItem="98Z-fY-AFv" firstAttribute="top" secondItem="xVG-WR-mjc" secondAttribute="bottom" constant="8" symbolic="YES" id="b0i-np-886"/>
                             <constraint firstItem="xVG-WR-mjc" firstAttribute="leading" secondItem="98Z-fY-AFv" secondAttribute="leading" id="dCk-yS-ubG"/>
@@ -120,6 +124,11 @@
                             <constraint firstItem="PFG-ci-PH6" firstAttribute="top" secondItem="98Z-fY-AFv" secondAttribute="bottom" constant="8" symbolic="YES" id="yaQ-OL-RLB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1sC-ZW-L9B"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="commentsLabel" destination="98Z-fY-AFv" id="27p-rP-JmY"/>
