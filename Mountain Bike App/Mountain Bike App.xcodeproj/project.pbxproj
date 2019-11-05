@@ -14,6 +14,7 @@
 		C34A466D235F68F300F7DB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34A466B235F68F300F7DB07 /* LaunchScreen.storyboard */; };
 		C34A4678235F68F300F7DB07 /* Mountain_Bike_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4677235F68F300F7DB07 /* Mountain_Bike_AppTests.swift */; };
 		C34A4683235F68F300F7DB07 /* Mountain_Bike_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34A4682235F68F300F7DB07 /* Mountain_Bike_AppUITests.swift */; };
+		C36A5D3E2370A144000824D9 /* FlowControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36A5D3D2370A144000824D9 /* FlowControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C34A467E235F68F300F7DB07 /* Mountain Bike AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mountain Bike AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34A4682235F68F300F7DB07 /* Mountain_Bike_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountain_Bike_AppUITests.swift; sourceTree = "<group>"; };
 		C34A4684235F68F300F7DB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36A5D3D2370A144000824D9 /* FlowControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C34A4662235F68F100F7DB07 /* AppDelegate.swift */,
 				C34A4664235F68F100F7DB07 /* ViewController.swift */,
+				C36A5D3D2370A144000824D9 /* FlowControl.swift */,
 				C34A4666235F68F100F7DB07 /* Main.storyboard */,
 				C34A4669235F68F300F7DB07 /* Assets.xcassets */,
 				C34A466B235F68F300F7DB07 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				C34A4665235F68F100F7DB07 /* ViewController.swift in Sources */,
 				C34A4663235F68F100F7DB07 /* AppDelegate.swift in Sources */,
+				C36A5D3E2370A144000824D9 /* FlowControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
