@@ -83,11 +83,11 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r1c-3L-w5C">
-                                <rect key="frame" x="75" y="378" width="225" height="80"/>
+                                <rect key="frame" x="75" y="378" width="200" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lXC-SS-bfT" customClass="FlowControl" customModule="Mountain_Bike_App" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="225" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="44"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
